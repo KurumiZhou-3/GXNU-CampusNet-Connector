@@ -42,7 +42,7 @@ python CampusNetConnector.py --log-file /var/log/campusnet.log
 | `user_password` | 校园网密码（明文存储，注意文件权限） |
 | `company` | 运营商: `0`=校园网, `1`=中国电信, `2`=中国联通, `3`=中国移动 |
 | `interface` | 连接校园网的网络接口，用于获取本机 IP（如 `eth0`, `wlan0`） |
-| `direct_ip_address` | 直连 IP 模式的备用地址（可选）。当无法通过当前DNS（非学校DNS）解析认证网站IP或出现SSL证书问题的时候可设置该项以使用指定的IP操作，育才校区通常为`192.50.125.13` |
+| `direct_ip_address` | 直连 IP 模式的备用地址（可选）。当无法通过当前DNS（非学校DNS）解析认证网站IP或出现SSL证书问题的时候可设置该项以使用指定的IP操作，育才校区通常为`192.168.125.13` |
 | `lang` | 语言，默认 `zh-cn` |
 
 ## 认证流程
